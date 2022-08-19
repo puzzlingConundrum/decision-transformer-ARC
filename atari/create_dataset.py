@@ -21,11 +21,11 @@ import argparse
 
 def create_dataset(num_buffers, num_steps, game, data_dir_prefix, trajectories_per_buffer):
     # -- load data from memory (make more efficient)
-    obss = []
-    actions = []
-    returns = [0]
-    done_idxs = []
-    stepwise_returns = []
+    # obss = []
+    # actions = []
+    # returns = [0]
+    # done_idxs = []
+    # stepwise_returns = []
 
     transitions_per_buffer = np.zeros(50, dtype=int)
     num_trajectories = 0
